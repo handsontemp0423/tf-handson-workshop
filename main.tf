@@ -2,7 +2,7 @@ variable "tenancy_ocid" {}
 variable "user_ocid" {}
 variable "fingerprint" {}
 variable "private_key" {}
-variable "region" {}
+variable "region" { default = "us-ashburn-1" }
 
 
 # Configure the Oracle Cloud Infrastructure provider with an API Key
